@@ -1,0 +1,4 @@
+python -m venv myenv
+myenv\Scripts\activate
+pip install flask flask-bcrypt pillow numpy pycryptodome
+python backend/app.py

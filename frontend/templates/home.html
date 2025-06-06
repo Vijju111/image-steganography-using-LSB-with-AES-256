@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div class="main-heading">
+        <h1>IMAGE STEGANOGRAPHY</h1>
+        <p class="project-description">
+            Click on " Embedding " to securely hide a secret message inside an image.  
+            Click on " Extraction " to retrieve a hidden message from a stego image.  
+        </p>
+    </div>
+    <div class="container">
+        <div class="header">
+            <h1>Welcome, {{ username }}!</h1>
+            <button onclick="location.href='/logout'">Logout</button>
+        </div>
+        <div class="action-buttons">
+            <button onclick="location.href='/embed'">Embed Message</button>
+            <button onclick="location.href='/extract'">Extract Message</button>
+        </div>
+    </div>
+</body>
+</html>
